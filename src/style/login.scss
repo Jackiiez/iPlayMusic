@@ -10,28 +10,28 @@
 #root {
   height: 100vh;
   max-width: 430px;
-  margin: 0 auto; /* Center the root element */
+  margin: 0 auto; 
 }
 
 .checkout-container {
   height: 90vh;
-  display: flex; /* Change to flex for better centering */
-  flex-direction: column; /* Ensure elements stack vertically */
-  justify-content: center; /* Center vertically */
-  align-items: center; /* Center horizontally */
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
 }
 
 h1 {
-  margin-bottom: 20px; /* Add margin for spacing */
+  margin-bottom: 20px;
       justify-self: start;
 }
 
 .payment-details {
-  display: flex; /* Use flexbox for better layout */
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center items */
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
   z-index: 2;
-  width: 100%; /* Use full width */
+  width: 100%; 
 }
 
 input {
@@ -42,12 +42,13 @@ input {
   outline: none; 
   padding: 5px; 
   text-align: start;
-  width: 80%; /* Ensure inputs are responsive */
+  width: 80%; 
 }
 
 button {
-  margin-top: 3%;
-  border-radius: 25px;
-  padding: 5px;
-  width: 80%; /* Make button responsive */
+    margin-top: 3%;
+    border-radius: 25px;
+    padding: 5px;
+  
+    border: none;
 }
