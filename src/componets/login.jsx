@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom'; 
 import '../style/login.scss'; 
 import { IoIosFingerPrint } from 'react-icons/io';
 
@@ -6,6 +7,7 @@ function Login() {
     const [name, setName] = useState('');
     const [visible, setVisible] = useState(false);
     const [password, setPassword] = useState('');
+    const navigate = useNavigate();
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -29,6 +31,9 @@ function Login() {
 
         setName('');
         setPassword('');
+
+
+        navigate('/hej');
     };
 
     return (
@@ -38,7 +43,7 @@ function Login() {
                 <form className={`payment-details splash-screen ${visible ? 'fade-in' : 'fade-out'}`} onSubmit={handleSubmit}>
                     <label htmlFor="username">Username</label>
                     <input
-                        id="username" // Added id attribute
+                        id="username"
                         type="text"
                         name="name"
                         placeholder="Full Name"
@@ -48,15 +53,15 @@ function Login() {
 
                     <label htmlFor="password">Password</label>
                     <input
-                        id="password" // Added id attribute
-                        type="password" // Corrected input type
+                        id="password"
+                        type="password"
                         name="password"
                         placeholder="****"
                         maxLength="16"
                         onChange={(e) => setPassword(e.target.value)}
                     />
 
-                    <button className="pay-btn">
+                    <button className="pay-btn" type="submit">
                         Login
                     </button>
                     <IoIosFingerPrint />
@@ -67,3 +72,5 @@ function Login() {
 }
 
 export default Login;
+
+
