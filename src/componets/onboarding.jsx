@@ -12,7 +12,7 @@ function Onboarding() {
 
     return (
         <>
-            <img className='onboarding-image' src="public/Asset.png" alt="" />
+            <img className='onboarding-image' src="/Asset.png" alt="" />
             <h1 className='onboarding-heading'>{name}</h1>
            
             <p className='onboarding-text'>Vivamus auctor dui dignissim, sollicitudin nunc ac, aliquam justo. Vestibulum pellentesque lacinia eleifend.</p>

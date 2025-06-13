@@ -35,14 +35,14 @@
  
 }
 .buttons-div button {
-    background-color: transparent; // Default background
+    background-color: transparent;
     border: none;
     cursor: pointer;
 
 
     &.active {
-        background-color: rgb(255, 17, 104); // Desired active color
-        color: white; // Optional: Change text color for better contrast
+        background-color: rgb(255, 17, 104); 
+        color: white;
     }
 
    
