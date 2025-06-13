@@ -1,0 +1,53 @@
+.buttons-div{
+        display: grid
+;
+    grid-auto-flow: column;
+    justify-content: space-evenly;
+}
+.buttons-div button{
+   border-radius: 30px;
+    border: none;
+    padding: 25%;
+    width: 100PX;
+    margin-top: 20PX;
+}
+.skipbutton{
+    justify-self: center;
+    display: grid
+;
+    margin-top: 15px;
+    border: none;
+    color: blue;
+    background-color: white;
+    cursor: pointer;
+}
+.onboarding-heading{
+    
+    margin: 0 auto;
+    margin-top: 15%;
+}
+.onboarding-image{
+    width: 430px;
+}
+
+.onboarding-svg {
+ font-size: 40px;
+ 
+}
+.buttons-div button {
+    background-color: transparent; // Default background
+    border: none;
+    cursor: pointer;
+
+
+    &.active {
+        background-color: rgb(255, 17, 104); // Desired active color
+        color: white; // Optional: Change text color for better contrast
+    }
+
+   
+}
+.onboarding-text{
+        width: 250px;
+    margin: 0 auto;
+}

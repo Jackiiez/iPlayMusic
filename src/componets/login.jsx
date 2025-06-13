@@ -33,7 +33,7 @@ function Login() {
         setPassword('');
 
 
-        navigate('/hej');
+        navigate('/onboarding');
     };
 
     return (
@@ -61,10 +61,10 @@ function Login() {
                         onChange={(e) => setPassword(e.target.value)}
                     />
 
-                    <button className="pay-btn" type="submit">
+                    <button  className="pay-btn button" type="submit">
                         Login
                     </button>
-                    <IoIosFingerPrint />
+                    <IoIosFingerPrint className='svg' />
                 </form>
             </div>
         </>
