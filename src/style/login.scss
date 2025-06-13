@@ -5,41 +5,33 @@
   scroll-behavior: smooth;
   font-family: 'Segoe UI', sans-serif;
   text-align: center;
-  font-size: 25px;
 }
 
 #root {
   height: 100vh;
   max-width: 430px;
-  
-}
-
-.payment-details {
-  display: grid;
-  z-index: 2;
-  margin: 0 auto;
+  margin: 0 auto; /* Center the root element */
 }
 
 .checkout-container {
   height: 90vh;
-  display: grid;
-  align-content: center;
-  justify-items: center;
+  display: flex; /* Change to flex for better centering */
+  flex-direction: column; /* Ensure elements stack vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
 }
 
 h1 {
-  display: grid;
-  justify-self: start;
-  padding-left: 2.5%;
+  margin-bottom: 20px; /* Add margin for spacing */
+      justify-self: start;
 }
 
-button {
-  margin-top: 3%;
-      border-radius: 25px;
-    padding: 5px;
-    width: 25%;
-    border: none;
-
+.payment-details {
+  display: flex; /* Use flexbox for better layout */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items */
+  z-index: 2;
+  width: 100%; /* Use full width */
 }
 
 input {
@@ -50,12 +42,12 @@ input {
   outline: none; 
   padding: 5px; 
   text-align: start;
+  width: 80%; /* Ensure inputs are responsive */
 }
-svg{
-    margin-top: 5vh;
-    font-size: 125%;
-    background-color: pink;
-    width: 25%;
-    border-radius: 50%;
-    height: 9%;
+
+button {
+  margin-top: 3%;
+  border-radius: 25px;
+  padding: 5px;
+  width: 80%; /* Make button responsive */
 }
