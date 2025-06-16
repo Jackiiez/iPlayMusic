@@ -3,7 +3,9 @@
 import { GloabelContext } from "../gloabelContext";
 import React, { useContext, useState } from 'react';
 import Navigation from './navigation';
-import Top from "./top";
+
+import Featuredheader from "./Featured-header";
+import Featured from "./Featured";
 
 //MAIN FORSIDE
 
@@ -30,9 +32,14 @@ function Frontpage({ index }) {
   };
 
   return (
-    <>
+    <>  
+    
+    
+       <Featuredheader/>
+ <Featured/> 
     <Navigation/>
-    <Top/>
+    
+
     </>
   );
 }

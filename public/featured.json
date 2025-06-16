@@ -1,0 +1,19 @@
+{
+  "cards": [
+    {
+      "title": "Card 1",
+      "text": "soundtrack",
+      "img": "https://example.com/image1.jpg"
+    },
+    {
+      "title": "Card 2",
+      "text": "soundtrack",
+      "img": "https://example.com/image2.jpg"
+    },
+    {
+      "title": "Card 3",
+      "text": "soundtrack",
+      "img": "https://example.com/image3.jpg"
+    }
+  ]
+}
