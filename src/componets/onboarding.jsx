@@ -46,7 +46,7 @@ function Onboarding() {
                 </button>
             </div>
             <Link className='skip' to={`/dinmor`}>
-                <button className='skipbutton' style={skipButtonStyle}>skip</button>
+                <p className='skipbutton' style={skipButtonStyle}>skip</p>
             </Link>
         </>
     );
