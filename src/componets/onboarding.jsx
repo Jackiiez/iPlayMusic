@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom'; // Ensure correct import for react-router
+import { Link } from 'react-router-dom';
 import '../style/onboarding.scss'; 
 import { FaHeart } from 'react-icons/fa';
 import { IoIosMusicalNote, IoIosRadio } from 'react-icons/io';
@@ -45,7 +45,7 @@ function Onboarding() {
                     <IoIosMusicalNote className='onboarding-svg' />
                 </button>
             </div>
-            <Link className='skip' to={`/Front-page`}>
+            <Link className='skip' to={`/featured`}>
                 <p className='skipbutton' style={skipButtonStyle}>skip</p>
             </Link>
         </>

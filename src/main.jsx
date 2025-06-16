@@ -15,7 +15,7 @@ const router = createBrowserRouter([
     path: "/onboarding",
     element: <Onboarding />
   },{
-    path: "/front-page",
+    path: "/:page",
     element: <Frontpage />
   },
 ])
