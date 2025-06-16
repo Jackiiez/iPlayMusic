@@ -4,6 +4,7 @@ import { GloabelContext } from "./gloabelContext";
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import App from './App.jsx'
 import Onboarding from "./componets/onboarding.jsx";
+import Frontpage from "./componets/Frontpage.jsx";
 //router hvor vi putter komponenter ind og laver flere sider
 const router = createBrowserRouter([
   {
@@ -13,6 +14,9 @@ const router = createBrowserRouter([
     {
     path: "/onboarding",
     element: <Onboarding />
+  },{
+    path: "/front-page",
+    element: <Frontpage />
   },
 ])
 //vi laver et state som vi ka gemme i vores context

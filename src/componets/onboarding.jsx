@@ -45,7 +45,7 @@ function Onboarding() {
                     <IoIosMusicalNote className='onboarding-svg' />
                 </button>
             </div>
-            <Link className='skip' to={`/dinmor`}>
+            <Link className='skip' to={`/Front-page`}>
                 <p className='skipbutton' style={skipButtonStyle}>skip</p>
             </Link>
         </>

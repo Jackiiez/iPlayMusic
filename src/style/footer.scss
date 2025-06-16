@@ -1,0 +1,31 @@
+footer ul {
+    display: grid
+;
+    grid-auto-flow: column;
+    list-style: none;
+    justify-content: space-between;
+padding: 0;
+}
+  footer ul li a{
+     color: rgb(255, 17, 104);
+         font-size: 25px;
+  }
+    
+   
+
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: #fff;
+  z-index: 1000;
+
+}
+
+
+.footer {
+ 
+}

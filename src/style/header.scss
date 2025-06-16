@@ -1,0 +1,17 @@
+.header-ul{
+        display: grid
+;
+    grid-auto-flow: column;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 0;
+    margin-top: 10%;
+
+}
+.header-ul li a{
+    color: black;
+}
+.General-heading{
+        text-align: start;
+    margin-left: 14%;
+}
