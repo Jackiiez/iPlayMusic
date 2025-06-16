@@ -3,6 +3,7 @@ import { Link } from "react-router";
 import '../style/header.scss'; 
 import Page from "./Featuredtext";
 import Featuredtext from "./Featuredtext";
+import Featuredheader from "./Featured-header";
 
 export default function Top() {
 
@@ -12,16 +13,7 @@ export default function Top() {
         <>
 
          
-            <header>
-                <ul className="header-ul">
-                    <li> <Link to={`/`}><FaArrowLeft /></Link></li>
-                    <li> <Link to={`/Explore`}>Current placeholder</Link></li>
-                    <li><Link to={`/front-page`}><FaSearch /></Link></li>
-                   
-          
-
-                </ul>
-            </header>
+         <Featuredheader/>
             <Featuredtext />
         </>
     );
