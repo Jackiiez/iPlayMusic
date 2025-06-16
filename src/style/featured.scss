@@ -2,11 +2,17 @@
     display: grid;
     align-items: center;
     justify-content: center;
+        text-decoration: none;
+}
+.cards{
+        text-decoration: none;
 }
 .card__div, .placeholder{
         grid-row: 1;
     grid-column: 1;
+        text-decoration: none;
 }
 .card__div p, .card__div h2{
     color: white;
+    
 }
