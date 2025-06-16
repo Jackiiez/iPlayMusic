@@ -1,9 +1,12 @@
-import { RiMovie2Line } from "react-icons/ri";
+import { RiMovie2Line, RiSignalTowerFill } from "react-icons/ri";
 import { CiBookmark, CiSearch } from "react-icons/ci";
 import { Link } from "react-router";
 import { MdPerson } from "react-icons/md";
-import { IoMdHome } from "react-icons/io";
+import { IoIosMicrophone, IoIosSettings, IoMdHome } from "react-icons/io";
 import '../style/footer.scss'; 
+import { IoRadio } from "react-icons/io5";
+import { LuAudioLines } from "react-icons/lu";
+import { TbPercentage50 } from "react-icons/tb";
 export default function Navigation() {
 
 
@@ -13,11 +16,11 @@ export default function Navigation() {
 
             <footer className="footer">
                 <ul>
-                    <li> <Link to={`/`}><IoMdHome /></Link></li>
-                    <li> <Link to={`/Explore`}><RiMovie2Line /></Link></li>
-                    <li><Link to={`/front-page`}><CiBookmark /></Link></li>
-                    <li><Link to="/?"><MdPerson /></Link></li>
-                      <li><Link to={`/settings`}><MdPerson /></Link></li>
+                    <li> <Link to={`/categories`}><LuAudioLines /></Link></li>
+                    <li> <Link to={`/featured`}><IoIosMicrophone /></Link></li>
+                    <li><Link to={`/playing`}><RiSignalTowerFill /></Link></li>
+                    <li><Link to={`/explore`}><TbPercentage50 /></Link></li>
+                      <li><Link to={`/settings`}><IoIosSettings /></Link></li>
 
                 </ul>
             </footer>

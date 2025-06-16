@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router'
 import App from './App.jsx'
 import Onboarding from "./componets/onboarding.jsx";
 import Frontpage from "./componets/Frontpage.jsx";
+import Explore from "./componets/explore.jsx";
 //router hvor vi putter komponenter ind og laver flere sider
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   },{
     path: "/:page",
     element: <Frontpage />
+  },
+    {
+    path: "/explore",
+    element: <Explore />
   },
 ])
 //vi laver et state som vi ka gemme i vores context
