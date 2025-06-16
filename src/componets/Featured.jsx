@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+import '../style/featured.scss'; 
 export default function Featured() {
     const [cards, setCards] = useState([]);
 
@@ -15,18 +15,18 @@ export default function Featured() {
 
     return (
         <div className='cards'>
-            <h1>Featured Cards</h1>
-            <ul>
+  
+           {/* vi henter vores array og giver det et parameter(card) */}
                 {cards.map((card, index) => (
-                    <li key={index}>
+                    <div className="card" key={index}>
                         <img className='placeholder' src={card.img} alt={`${card.title} Image`} />
                         <div className="card__div">
                             <h2 className='cardtitle'>{card.title}</h2>
                             <p className='cardtext'>{card.text}</p>
                         </div>
-                    </li>
+                    </div>
                 ))}
-            </ul>
+       
         </div>
     );
 };

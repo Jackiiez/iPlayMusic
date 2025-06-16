@@ -1,19 +1,19 @@
 {
   "cards": [
     {
-      "title": "Card 1",
+      "title": "The Greatest Showman",
       "text": "soundtrack",
-      "img": "https://example.com/image1.jpg"
+      "img": "pexels-photo-1816943.png"
     },
     {
-      "title": "Card 2",
+      "title": "The Greatest Showman",
       "text": "soundtrack",
-      "img": "https://example.com/image2.jpg"
+  "img": "pexels-photo-1816943.png"
     },
     {
-      "title": "Card 3",
+      "title": "The Greatest Showman",
       "text": "soundtrack",
-      "img": "https://example.com/image3.jpg"
+  "img": "pexels-photo-1816943.png"
     }
   ]
 }

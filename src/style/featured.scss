@@ -1,0 +1,12 @@
+.card{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.card__div, .placeholder{
+        grid-row: 1;
+    grid-column: 1;
+}
+.card__div p, .card__div h2{
+    color: white;
+}
