@@ -6,6 +6,7 @@ import App from './App.jsx'
 import Onboarding from "./componets/onboarding.jsx";
 import Frontpage from "./componets/Frontpage.jsx";
 import Explore from "./componets/explore.jsx";
+import Category from "./componets/Category.jsx";
 //router hvor vi putter komponenter ind og laver flere sider
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
     {
     path: "/explore",
     element: <Explore />
+  },
+     {
+    path: "/categories",
+    element: <Category />
   },
 ])
 //vi laver et state som vi ka gemme i vores context
