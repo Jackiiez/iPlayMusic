@@ -4,6 +4,7 @@ import '../style/playlist.scss';
 import { FaArrowLeft, FaSearch } from 'react-icons/fa';
 import FeaturedHeader from './Featured-header';
 import Navigation from './navigation';
+import PlaylistScroll from './playlist-scroll';
 
 export default function Playlist() {
  
@@ -14,6 +15,7 @@ export default function Playlist() {
         <div className='wrapper'>
              <FeaturedHeader defaultTitle="Playlists" defaultText="Playlists" />
 
+<PlaylistScroll/>
                <Navigation/></div>
         </>
     );
