@@ -32,23 +32,23 @@ const Categories = () => {
             {/* vi henter vores array af info i med .map */}
             {categoriesData.map(category => (
 
-                <div>
+                <div  className='category-div'onClick={() => handleCategoryClick(category.id)}>
 
 
                     {/* vi definere hver knap med et category.id så log vis den bliver klikket så køre handleCategoryClick */}
-                    <button onClick={() => handleCategoryClick(category.id)}>
+                    <button >
                         {category.name}
                     </button>
 
                     {/* her spørg vi om div har category.id og vis den er null så bliver den block når button bliver klikked
 (vis den div har et matchene id i forhold til vores button) */}
 
-                    <div style={{ display: activeCategoryId === category.id ? 'block' : 'none', padding: '5%' }}>
+                    <div  style={{ display: activeCategoryId === category.id ? 'block' : 'none', padding: '5%' }}>
 
 {/* vi  henter subcategories via .map function */}
                         {category.subcategories.map((subcategory, index) => (
   
-                            <div key={index}>{subcategory}</div>
+                            <div  key={index}>{subcategory}</div>
                         ))}
                     </div>
                 </div>
