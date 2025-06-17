@@ -9,17 +9,17 @@ const jsonData = [
     {
         title: "Item 1", 
         description: "Description for Item 1",
-        imageUrl: "public/photo-1545224144-b38cd309ef69.png" 
+        imageUrl: "photo-1545224144-b38cd309ef69.png" 
     },
     {
         title: "Item 2",
         description: "Description for Item 2", 
-        imageUrl: "public/photo-1545224144-b38cd309ef69.png"
+        imageUrl: "photo-1545224144-b38cd309ef69.png"
     },
     {
         title: "Item 3",
         description: "Description for Item 3", 
-        imageUrl: "public/photo-1545224144-b38cd309ef69.png" 
+        imageUrl: "photo-1545224144-b38cd309ef69.png" 
     }
 ];
 
