@@ -5,8 +5,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router'
 import App from './App.jsx'
 import Onboarding from "./componets/onboarding.jsx";
 import Frontpage from "./componets/Frontpage.jsx";
-import Explore from "./componets/explore.jsx";
+import Explore from "./componets/Playlists.jsx";
 import Category from "./componets/Category.jsx";
+import Playlist from "./componets/Playlists.jsx";
 //router hvor vi putter komponenter ind og laver flere sider
 const router = createBrowserRouter([
   {
@@ -21,8 +22,8 @@ const router = createBrowserRouter([
     element: <Frontpage />
   },
     {
-    path: "/explore",
-    element: <Explore />
+    path: "/playlists",
+    element: <Playlist />
   },
      {
     path: "/categories",

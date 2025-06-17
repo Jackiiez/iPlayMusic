@@ -12,7 +12,7 @@ export default function Category() {
 
     return (
         <>
-        <FeaturedHeader defaultTitle="Category" defaultText="Category" />
+        <FeaturedHeader defaultTitle="Categories" defaultText="Categories" />
         <Categories/>
                     <Navigation/>
         </>
