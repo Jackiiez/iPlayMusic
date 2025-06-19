@@ -16,11 +16,11 @@ export default function Navigation() {
 
             <footer className="footer">
                 <ul>
-                    <li> <Link to={`/categories`}><LuAudioLines /></Link></li>
-                    <li> <Link to={`/featured`}><IoIosMicrophone /></Link></li>
+                    <li><Link to={`/featured`}><IoIosMicrophone /></Link></li>
+                    <li>  <Link to={`/categories`}><LuAudioLines /></Link></li>
                     <li><Link to={`/playing`}><RiSignalTowerFill /></Link></li>
                     <li><Link to={`/playlists`}><TbPercentage50 /></Link></li>
-                      <li><Link to={`/settings`}><IoIosSettings /></Link></li>
+                      <li><Link to={`/albums`}><IoIosSettings /></Link></li>
 
                 </ul>
             </footer>

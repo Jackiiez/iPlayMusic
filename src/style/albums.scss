@@ -1,0 +1,101 @@
+.comming-soon-container {
+  
+    padding: 20px;
+
+    
+    .movies-grid {
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        gap: 20px;
+        padding-bottom: 10px;
+    }
+
+    .movie-card {
+
+
+        width: 250px;
+        flex-shrink: 0;
+
+
+
+        img {
+            width: 100%;
+            height: 140px;
+            object-fit: cover;
+        }
+
+        .movie-info {
+            padding: 10px;
+
+            h3 {
+                font-size: 16px;
+                margin: 0;
+                font-weight: 600;
+            }
+
+            p {
+                color: #bbb;
+                font-size: 14px;
+                margin-top: 5px;
+            }
+        }
+    }
+  
+}  .content-div{
+display: grid
+;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    }
+    .newrealeases-ul li{
+        list-style: none;
+    }
+    .placeholders {
+  max-width:
+    70px;
+
+  border-radius: 10px;
+
+}
+
+
+
+.cinemas {
+  padding: 20px;
+
+}
+
+.cinemas ul li {
+  margin-bottom: 20px;
+
+}
+
+.newrealeases-ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.newrealeases-ul li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.placeholders {
+  width: 100px;
+  height: auto;
+}
+
+
+
+.cinemaname, .cinematext {
+  margin: 0;
+  text-align: start;
+}
+
+
+
