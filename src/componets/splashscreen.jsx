@@ -19,7 +19,6 @@ function SplashScreen() {
      
     >
       <img src="Group-434.png" alt="Logo" className="splash-image" />
-      <h1>Spotify</h1>
     </div>
   );
 };

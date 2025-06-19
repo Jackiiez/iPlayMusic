@@ -17,6 +17,7 @@ export default function Playing() {
         <>
         <FeaturedHeader defaultTitle="Music" defaultText="Playing" />
        <Player/>
+       <Navigation/>
         </>
     );
 }

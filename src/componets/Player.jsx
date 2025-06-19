@@ -27,7 +27,7 @@ export default function Player() {
        
      <>
      <div className="player-div">
-        <img src="public/player.png" alt="" />
+        <img src="/player.png" alt="" />
      </div>
       <div className='cards'>
   
