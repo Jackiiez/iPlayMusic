@@ -8,6 +8,7 @@ import Frontpage from "./componets/Frontpage.jsx";
 import Explore from "./componets/Playlists.jsx";
 import Category from "./componets/Category.jsx";
 import Playlist from "./componets/Playlists.jsx";
+import Playing from "./componets/Playing.jsx";
 //router hvor vi putter komponenter ind og laver flere sider
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
      {
     path: "/categories",
     element: <Category />
+  },
+     {
+    path: "/playing",
+    element: <Playing/>
   },
 ])
 //vi laver et state som vi ka gemme i vores context

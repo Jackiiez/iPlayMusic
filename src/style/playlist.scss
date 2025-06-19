@@ -15,9 +15,7 @@
             padding-top: 2rem;
 
 }
-.header-ul li a{
-    color: white;
-}
+
 .wrapper h2{
     color: white;
 }
@@ -68,7 +66,7 @@
     width: 100%;
     padding: 10px;
     border-radius: 10px;
-    background-color: #1B1E25;
+  
     color: white;
     border: 1px solid white;
 }
@@ -93,6 +91,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+        align-items: center;
 }
 
 .card-scroll-container {
@@ -128,4 +127,7 @@
 }
 .card-scroll-heading, .card-scroll-text{
     color: black;
+}
+.song-item p{
+color: black;
 }

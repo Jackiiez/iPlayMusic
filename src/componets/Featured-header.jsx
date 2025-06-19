@@ -20,15 +20,15 @@ export default function FeaturedHeader({ defaultTitle,defaultText }) {
             <header>
                 <ul className="header-ul">
                     <li>
-                        <Link to={`/`}>
+                        <Link className='header-ul-a' to={`/`}>
                             <FaArrowLeft onClick={goBack} className="back-button" />
                         </Link>
                     </li>
                     <li>
-                        <Link to={`/`}>{displayedTitle}</Link>
+                        <Link className='header-ul-a' to={`/`}>{displayedTitle}</Link>
                     </li>
                     <li>
-                        <Link to={`/front-page`}><FaSearch /></Link>
+                        <Link className='header-ul-a' to={`/front-page`}><FaSearch /></Link>
                     </li>
                 </ul>
             </header>

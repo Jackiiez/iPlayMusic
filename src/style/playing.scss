@@ -1,0 +1,25 @@
+.player-div{
+        background-image: url('/public/sound-wave-3.png');
+        background-size: cover;
+
+
+    height: 40vh;
+ 
+ 
+    justify-content: center; 
+    color: white; 
+}
+.player-ul{  
+       display: grid
+;
+    grid-auto-flow: column;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.player-ul li svg{
+    font-size: 2rem;
+}
