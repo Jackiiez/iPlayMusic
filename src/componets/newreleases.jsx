@@ -5,7 +5,7 @@ export default function Realeases() {
     const [cinemas, setCinemas] = useState([]);
 
     useEffect(() => {
-        fetch('public/releases.json')
+        fetch('/releases.json')
             .then(response => response.json())
             .then(data => setCinemas(data))
             .catch(error => console.error('Error fetching cinemas:', error));

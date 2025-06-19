@@ -6,7 +6,7 @@ function Featuredalbums() {
        const [movies, setMovies] = useState([]);
 
     useEffect(() => {
-        fetch('public/releases.json')
+        fetch('/releases.json')
             .then(response => response.json())
             .then(data => setMovies(data))
             .catch(error => console.error('Error fetching cinemas:', error));
