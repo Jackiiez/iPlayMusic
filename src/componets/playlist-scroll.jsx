@@ -55,6 +55,22 @@ const jsonData = [
             {"title": "Song 29", "artist": "Artist 29", "duration": "3:12"},
             {"title": "Song 30", "artist": "Artist 30", "duration": "5:05"}
         ]
+    },    {
+        "title": "Item 3",
+        "description": "Description for Item 3",
+        "imageUrl": "photo-1545224144-b38cd309ef69.png",
+        "songs": [
+            {"title": "Song 21", "artist": "Artist 21", "duration": "3:50"},
+            {"title": "Song 22", "artist": "Artist 22", "duration": "4:00"},
+            {"title": "Song 23", "artist": "Artist 23", "duration": "2:30"},
+            {"title": "Song 24", "artist": "Artist 24", "duration": "3:40"},
+            {"title": "Song 25", "artist": "Artist 25", "duration": "4:30"},
+            {"title": "Song 26", "artist": "Artist 26", "duration": "3:25"},
+            {"title": "Song 27", "artist": "Artist 27", "duration": "2:55"},
+            {"title": "Song 28", "artist": "Artist 28", "duration": "4:15"},
+            {"title": "Song 29", "artist": "Artist 29", "duration": "3:12"},
+            {"title": "Song 30", "artist": "Artist 30", "duration": "5:05"}
+        ]
     }
 ];
 
